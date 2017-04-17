@@ -43,5 +43,7 @@ This package contains copied and adapted implementation of 0.43 list features to
 ```js
 import { FlatList, VirtualizedList, SectionList } from 'react-native-list';
 
-// then use it like regular react-native@0.43 components
+// then use it like a regular react-native@0.43 components
 ```
+
+For more information, see [Better List Views in React Native](https://facebook.github.io/react-native/blog/2017/03/13/better-list-views.html).
