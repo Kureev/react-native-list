@@ -19,7 +19,7 @@ const VirtualizedList = require('VirtualizedList');
 const invariant = require('fbjs/lib/invariant');
 
 import type {StyleObj} from 'StyleSheetTypes';
-import type {ViewabilityConfig, ViewToken} from 'ViewabilityHelper';
+import type {ViewabilityConfig, ViewToken} from './ViewabilityHelper';
 import type {Props as VirtualizedListProps} from 'VirtualizedList';
 
 type RequiredProps<ItemT> = {

@@ -18,14 +18,14 @@ const ReactNative = require('ReactNative');
 const RefreshControl = require('RefreshControl');
 const ScrollView = require('ScrollView');
 const View = require('View');
-const ViewabilityHelper = require('ViewabilityHelper');
+const ViewabilityHelper = require('./ViewabilityHelper');
 
 const infoLog = require('infoLog');
 const invariant = require('fbjs/lib/invariant');
 
 const {computeWindowedRenderLimits} = require('VirtualizeUtils');
 
-import type {ViewabilityConfig, ViewToken} from 'ViewabilityHelper';
+import type {ViewabilityConfig, ViewToken} from './ViewabilityHelper';
 
 type Item = any;
 

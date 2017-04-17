@@ -18,7 +18,7 @@ const VirtualizedList = require('VirtualizedList');
 const invariant = require('fbjs/lib/invariant');
 const warning = require('fbjs/lib/warning');
 
-import type {ViewToken} from 'ViewabilityHelper';
+import type {ViewToken} from './ViewabilityHelper';
 import type {Props as VirtualizedListProps} from 'VirtualizedList';
 
 type Item = any;
