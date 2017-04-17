@@ -37,3 +37,11 @@ This package contains copied and adapted implementation of 0.43 list features to
   ```
 
   - If you already have `rn-cli.config.js`, add `react-native-list` to your `getProvidesModuleNodeModules` function or copy it from the snippet above.
+
+## Usage
+
+```js
+import { FlatList, VirtualizedList, SectionList } from 'react-native-list';
+
+// then use it like regular react-native@0.43 components
+```
