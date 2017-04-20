@@ -11,10 +11,9 @@
  */
 'use strict';
 
-const ListView = require('ListView');
-const React = require('React');
+const { ListView, ScrollView } = require('react-native');
+const React = require('react');
 const RefreshControl = require('RefreshControl');
-const ScrollView = require('ScrollView');
 
 const invariant = require('fbjs/lib/invariant');
 

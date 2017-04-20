@@ -11,16 +11,18 @@
  */
 'use strict';
 
-const MetroListView = require('MetroListView'); // Used as a fallback legacy option
-const React = require('React');
-const View = require('View');
-const VirtualizedList = require('VirtualizedList');
+const React = require('react');
+const { View } = require('react-native');
+const MetroListView = require('./MetroListView'); // Used as a fallback legacy option
+const VirtualizedList = require('./VirtualizedList');
 
 const invariant = require('fbjs/lib/invariant');
 
-import type {StyleObj} from 'StyleSheetTypes';
 import type {ViewabilityConfig, ViewToken} from './ViewabilityHelper';
-import type {Props as VirtualizedListProps} from 'VirtualizedList';
+import type {Props as VirtualizedListProps} from './VirtualizedList';
+
+type Atom = number | bool | Object | Array<?Atom>;
+type StyleObj = Atom;
 
 type RequiredProps<ItemT> = {
   /**
