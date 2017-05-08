@@ -1,6 +1,6 @@
 {
   "name": "react-native-list",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "main": "index.js",
   "repository": "git@github.com:Kureev/react-native-list.git",
   "author": "Alexey Kureev <a.g.kureev@gmail.com>",
